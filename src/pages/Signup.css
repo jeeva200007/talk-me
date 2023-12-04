@@ -1,0 +1,30 @@
+.signup_bg{
+        background-image: url(https://plus.unsplash.com/premium_photo-1679429320956-f6171b6f006b?auto=format&fit=crop&q=80&w=1169&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D://images.unsplash.com/photo-1600096194534-95cf5ece04cf?auto=format&fit=crop&q=80&w=988&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        height: 89vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+        margin-top: 10px;
+    }
+.signup-profile-pic-container{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.signup-profile-pic{
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    height: 100px;
+}
+.add-picture-icon{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: green;
+    background: white;
+}
