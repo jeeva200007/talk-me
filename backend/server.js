@@ -17,7 +17,9 @@ const server = require("http").createServer(app);
 const PORT = 3001;
 const io = require("socket.io")(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "http://localhost:3000","https://talk-me-app.onrender.com
+
+",
     methods: ["GET", "POST"],
   },
 });
